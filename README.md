@@ -67,12 +67,11 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
 
   1. `/`
+       * Start at the homepage.
+         
+       * List all the available routes.
 
-    * Start at the homepage.
-
-    * List all the available routes.
-
-  2. `/api/v1.0/precipitation`
+  3. `/api/v1.0/precipitation`
 
     * Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using `date` as the key and `prcp` as the value.
 
